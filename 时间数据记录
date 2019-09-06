@@ -1,0 +1,27 @@
+··················click 前的jump out和jump in检查通过没问题·················
+行为,数量,数据集
+jump out后直接跟着page end，10，sq_annot3
+jump out的数量，167，sq_annot3
+jump out和jump in的数量157
+其中存在jump out和jump in的case的数量 119
+
+···················click 后出现jump out和jump in情况检查····················
+click后存在jump in和jump out的数据无异常
+
+
+···················click前出现jump out和jump in情况分析·····················
+----click前的jump out和click后出现jump out行为的相关性分析
+@画图
+
+----click前存在的out和in的原因分析，是否为可以理解为噪声
+@t检验
+@方差
+是否可以理解为正常的行为忽略掉
+
+总结：
+    将所有异常数据删除存储在sq——annot4
+    共929条
+
+···················任务1·················
+统计一行中存在一次点击的数量
+rank row clo
